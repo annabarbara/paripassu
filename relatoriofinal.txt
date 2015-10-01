@@ -1,16 +1,25 @@
 Relatório final
 
-1 - Teste automatizado: O teste automatizado não revelou erros. Há apenas uma variação na execução do programa, a qual ocorre conforme a existência ou não de um questionário previamente criado. Como a conta utilizada é gratuita, não é possível ter mais de um questionário de cada vez. Caso já exista um questionário, a parte de criação de questionário não é executada, mas todas as demais atividades ocorrem normalmente.
+1 - Teste automatizado: O teste automatizado não revelou erros. Há apenas uma variação na execução do programa, a qual ocorre
+conforme a existência ou não de um questionário previamente criado. Como a conta utilizada é gratuita, não é possível ter mais
+de um questionário de cada vez. Caso já exista um questionário, a parte de criação de questionário não é executada, mas todas 
+as demais atividades ocorrem normalmente.
 
 2 - Testes manuais: erros encontrados.
 
-2.1 - O primeiro item do submenu interno do menu "Avaliados" não está carregando o nome corretamente, mostrando "Checklist.ui.nav.list_avaliados".
+2.1 - O primeiro item do submenu interno do menu "Avaliados" não está carregando o nome corretamente, mostrando 
+"Checklist.ui.nav.list_avaliados".
 2.2 - O título do menu "Questionarios" necessita de acento agudo na letra "a".
 2.3 - A mensagem de sucesso de aplicação de questionário contém a palavra "questionária" ao invés de questionário.
 
 3 - Sugestões de melhorias.
 
 3.1 - Os elementos html podem ser melhor controlados com a inclusão de id's.
-3.2 - Ao cadastrar ou excluir qualquer entidade (Aplicação de questionário, Questionário ou Avaliado), é exibida de forma dinâmica e por cerca de 5 segundos uma barra verde indicando o sucesso da operação. Esta parece ser uma escolha estética, com aparência de fato agradável, mas os submenus de criação de novas entidades ficam indisponíveis durante a exibição desta barra, com ela "tapando" o acesso. Não chega a poder ser considerado um erro, mas é um desconforto desnecessário para usuários mais ágeis. Outras alternativas de design podem ser pensadas, como uma barra menor e contralizada ou à direita do último item da barra de menus.
+3.2 - Ao cadastrar ou excluir qualquer entidade (Aplicação de questionário, Questionário ou Avaliado), é exibida de forma
+dinâmica e por cerca de 5 segundos uma barra verde indicando o sucesso da operação. Esta parece ser uma escolha estética, 
+com aparência de fato agradável, mas os submenus de criação de novas entidades ficam indisponíveis durante a exibição desta
+barra, com ela "tapando" o acesso. Não chega a poder ser considerado um erro, mas é um desconforto desnecessário para usuários
+mais ágeis. Outras alternativas de design podem ser pensadas, como uma barra menor e contralizada ou à direita do último item 
+da barra de menus.
 
 Observação: Resolução do monitor utilizado nos testes: 1366x768.
